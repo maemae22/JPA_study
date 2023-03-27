@@ -24,10 +24,16 @@ public class JpaMain {
             // CODE
 
             // 1. 회원 저장
+
+            // 엔티티를 생성한 상태 (비영속)
 //            Member member = new Member();
 //            member.setId(2L);
 //            member.setName("HelloB");
+
+//            System.out.println("=== BEFORE ===");
+            // 엔티티를 영속
 //            em.persist(member);
+//            System.out.println("=== AFTER ===");
 
             // 2. 회원 조회
 //            Member findMember = em.find(Member.class, 1L);
@@ -41,6 +47,7 @@ public class JpaMain {
 //            findMember.setName("HelloJPA");
 
             // 5. JPQL
+            /*
             List<Member> result = em.createQuery("select m from Member as m", Member.class)
                     .setFirstResult(1) // 1~10까지 가져옴 (페이징처리를 대신 해줌)
                     .setMaxResults(10)
@@ -49,6 +56,20 @@ public class JpaMain {
             for (Member member : result) {
                 System.out.println("member.name = " + member.getName());
             }
+             */
+
+            // [ 영속성 컨텍스트 (영속성 관리) ]
+//            Member member = new Member();
+//            member.setId(101L);
+//            member.setName("HelloJPAs");
+
+//            em.persist(member);
+
+            Member findMember1 = em.find(Member.class, 101L);
+            Member findMember2 = em.find(Member.class, 101L);
+            System.out.println("findMember.id = " + findMember1.getId());
+            System.out.println("findMember.name = " + findMember1.getName());
+            System.out.println("result = " + (findMember1 == findMember2));
 
             tx.commit();
         } catch (Exception e) {
