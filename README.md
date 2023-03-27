@@ -3,6 +3,7 @@
 - 김영한의 스프링 부트와 JPA 실무 완전 정복 로드맵 : https://www.inflearn.com/roadmaps/149
 
 ## 강의1. 자바 ORM 표준 JPA 프로그래밍 - 기본편
+https://www.inflearn.com/course/ORM-JPA-Basic
 
 | 모듈(폴더) 이름     | 해당 강의 목차       |
 |---------------|----------------|
