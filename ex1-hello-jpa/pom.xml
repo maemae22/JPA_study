@@ -22,6 +22,14 @@
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
         </dependency>
+
+        <!-- JDK 11 환경에서 JPA를 실행시키면 에러가 생기므로 별도로 추가-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
     </dependencies>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
