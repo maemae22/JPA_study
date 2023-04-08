@@ -14,10 +14,11 @@
 
 ## 강의2. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발
 강의 : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1
+<br>
+수료증 : https://www.inflearn.com/certificate/1013012-324119-11688210
+<br>
+실습 내용 : https://github.com/maemae22/JPA_Study_jpastore
 
 | 모듈(폴더) 이름 | 해당 강의 목차         |
 |-----------|------------------|
 | jpastore  | 섹션 1 ~ 섹션 7 (전체) |
-| 내용5       | 내용6              |
-| 내용7       | 내용8              |
-| 내용9       | 내용10             |
