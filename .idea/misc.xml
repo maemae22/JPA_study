@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/data-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/demo" />
     <file type="web" url="file://$PROJECT_DIR$/jpastore" />
+    <file type="web" url="file://$PROJECT_DIR$/querydsl" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

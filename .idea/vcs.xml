@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/data-jpa" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jpastore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/querydsl" vcs="Git" />
   </component>
 </project>
