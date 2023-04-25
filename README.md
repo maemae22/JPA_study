@@ -33,3 +33,25 @@
 | 모듈(폴더) 이름 | 해당 강의 목차         |
 |-----------|------------------|
 | jpastore  | 섹션 0 ~ 섹션 6 (전체) |
+
+## 강의4. 실전! 스프링 데이터 JPA
+강의 : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84
+<br>
+수료증 : https://www.inflearn.com/certificate/1013012-324474-11688208
+<br>
+실습 내용 : https://github.com/maemae22/JPA_study_Spring-Data-JPA
+
+| 모듈(폴더) 이름 | 해당 강의 목차         |
+|-----------|------------------|
+| JPA_study_Spring-Data-JPA  | 섹션 0 ~ 섹션 7 (전체) |
+
+## 강의5. 실전! Querydsl
+강의 : https://www.inflearn.com/course/querydsl-%EC%8B%A4%EC%A0%84
+<br>
+수료증 : https://www.inflearn.com/certificate/1013012-324476-11688207
+<br>
+실습 내용 : https://github.com/maemae22/JPA_study_QueryDSL
+
+| 모듈(폴더) 이름 | 해당 강의 목차         |
+|-----------|------------------|
+| JPA_study_QueryDSL  | 섹션 0 ~ 섹션 7 (전체) |
